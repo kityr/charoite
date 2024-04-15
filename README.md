@@ -1,6 +1,9 @@
 # charoite
 
-This is an image based on silverblue-nvidia:latest (so gnome, nvidia drivers, ublue goodies like distrobox, all rolling over to the next fedora as soon as the ublue 'latest' image does) with my usual overlays (bat, exa, fish shell, intel-undervolt, msr-tools, waydroid) and with gnome patched for triple buffering. 
+- based on silverblue-nvidia:latest (meaning nvidia drivers, distrobox, etc)
+- bat, exa, fish shell, intel-undervolt, msr-tools, waydroid
+- gnome patched for triple buffering
+- topgrade for easy updates
 
 ## Installation
 
