@@ -20,6 +20,12 @@ modules:
   - type: rpm-ostree
     repos: # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
     install:
+        - bat
+        - eza
+        - fish
+        - intel-undervolt
+        - msr-tools
+        - waydroid
       # - micro
       # - starship
     remove:
