@@ -29,6 +29,7 @@ modules:
       - msr-tools
       - waydroid
       - rust
+      - cargo
       # - micro
       # - starship
     remove:
