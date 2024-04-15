@@ -21,6 +21,7 @@ modules:
     repos:  
       #- https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/trixieua/mutter-patched/repo/fedora-%OS_VERSION%/trixieua-mutter-patched-fedora-%OS_VERSION%.repo
+      - https://copr.fedorainfracloud.org/coprs/cyrinux/misc/repo/fedora-%OS_VERSION%/cyrinux-misc-fedora-%OS_VERSION%.repo
     install:
       - bat
       - eza
@@ -28,10 +29,11 @@ modules:
       - intel-undervolt
       - msr-tools
       - waydroid
-      - rust
-      - cargo
-      # - micro
-      # - starship
+      - topgrade
+      #- rust
+      #- cargo
+      #- micro
+      #- starship
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
