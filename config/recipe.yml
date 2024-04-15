@@ -28,6 +28,7 @@ modules:
       - intel-undervolt
       - msr-tools
       - waydroid
+      - rust
       # - micro
       # - starship
     remove:
