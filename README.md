@@ -1,8 +1,6 @@
 # charoite
 
-See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.
-
-After setup, it is recommended you update this README to describe your custom image.
+This is an image based on silverblue-nvidia:latest (so gnome, nvidia drivers, ublue goodies like distrobox, all rolling over to the next fedora as soon as the ublue 'latest' image does) with my usual overlays (bat, exa, fish shell, intel-undervolt, msr-tools, waydroid) and with gnome patched for triple buffering. 
 
 ## Installation
 
