@@ -31,6 +31,7 @@ modules:
       - waydroid
       - topgrade
       - zenity
+      - powertop
       #- rust
       #- cargo
       #- micro
