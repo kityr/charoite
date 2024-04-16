@@ -30,6 +30,7 @@ modules:
       - msr-tools
       - waydroid
       - topgrade
+      - zenity
       #- rust
       #- cargo
       #- micro
