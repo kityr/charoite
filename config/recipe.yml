@@ -32,6 +32,7 @@ modules:
       - topgrade
       - zenity
       - powertop
+      - intel-undervolt
       #- rust
       #- cargo
       #- micro
