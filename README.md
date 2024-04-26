@@ -1,9 +1,10 @@
 # charoite
 
 - based on silverblue-nvidia:latest (meaning nvidia drivers, distrobox, etc)
-- bat, exa, fish shell, intel-undervolt, msr-tools, waydroid
+- bat, exa, fish shell, intel-undervolt, msr-tools, powertop, waydroid
 - gnome patched for triple buffering
 - topgrade for easy updates
+- howdy for use of fingerprint scanner and IR camera 
 
 ## Installation
 
