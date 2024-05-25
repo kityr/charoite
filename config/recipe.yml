@@ -37,6 +37,7 @@ modules:
       - howdy
       - gcc
       - gradience
+      - docker-compose
       #- rust
       #- cargo
       #- micro
