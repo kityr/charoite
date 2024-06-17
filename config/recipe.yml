@@ -37,6 +37,7 @@ modules:
       - howdy
       - gcc
       - gradience
+      - python3.11
       #- docker-compose
       #- rust
       #- cargo
