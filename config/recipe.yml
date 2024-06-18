@@ -28,6 +28,7 @@ modules:
       - bat
       - eza
       - fish
+      - zsh
       - intel-undervolt
       - msr-tools
       - waydroid
