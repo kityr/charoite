@@ -37,6 +37,7 @@ modules:
       - howdy
       - gcc
       - python3.11
+      - adw-gtk3-theme
       #- docker-compose
       #- rust
       #- cargo
