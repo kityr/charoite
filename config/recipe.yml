@@ -23,7 +23,6 @@ modules:
       - https://copr.fedorainfracloud.org/coprs/trixieua/mutter-patched/repo/fedora-%OS_VERSION%/trixieua-mutter-patched-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/cyrinux/misc/repo/fedora-%OS_VERSION%/cyrinux-misc-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/principis/howdy/repo/fedora-%OS_VERSION%/principis-howdy-fedora-%OS_VERSION%.repo
-      - https://copr.fedorainfracloud.org/coprs/lyessaadi/gradience/repo/fedora-%OS_VERSION%/lyessaadi-gradience-fedora-%OS_VERSION%.repo
     install:
       - bat
       - eza
@@ -37,7 +36,6 @@ modules:
       - powertop
       - howdy
       - gcc
-      - gradience
       - python3.11
       #- docker-compose
       #- rust
