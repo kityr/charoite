@@ -39,6 +39,7 @@ modules:
       - python3.11
       - adw-gtk3-theme
       - pipx
+      - rapid-photo-downloader
       #- docker-compose
       #- rust
       #- cargo
