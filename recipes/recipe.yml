@@ -41,8 +41,8 @@ modules:
       - adw-gtk3-theme
       - pipx
       - rapid-photo-downloader
-      - rtl-sdr-
-      - gr-osmosdr-
+      - rtl-sdr
+      - gr-osmosdr
       - gqrx
       - gnuradio 
       - sdrangel
