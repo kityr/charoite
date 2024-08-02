@@ -31,24 +31,24 @@ modules:
       - eza
       - fish
       - zsh
-      - intel-undervolt
+      #- intel-undervolt
       - msr-tools
       #- waydroid
       - topgrade
       - zenity
       - powertop
-      - howdy
+      #- howdy
       - gcc
       - python3.11
       - adw-gtk3-theme
-      - pipx
+      #- pipx
       - rapid-photo-downloader
       - rtl-sdr
       - gr-osmosdr
       - gqrx
       - gnuradio 
       - sdrangel
-      - go
+      #- go
       #- apx
       #- docker-compose
       #- rust
