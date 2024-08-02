@@ -33,7 +33,7 @@ modules:
       - zsh
       - intel-undervolt
       - msr-tools
-      - waydroid
+      #- waydroid
       - topgrade
       - zenity
       - powertop
