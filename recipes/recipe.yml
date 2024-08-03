@@ -48,7 +48,7 @@ modules:
       - gqrx
       - gnuradio 
       - sdrangel
-      #- go
+      - go
       #- apx
       #- docker-compose
       #- rust
