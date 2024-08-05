@@ -38,7 +38,7 @@ modules:
       - zenity
       - powertop
       #- howdy
-      - gcc
+      #- gcc
       - python3.11
       - adw-gtk3-theme
       #- pipx
