@@ -49,7 +49,6 @@ modules:
       - gnuradio 
       - sdrangel
       - go
-      - mesa-dri-drivers
       #- apx
       #- docker-compose
       #- rust
