@@ -37,6 +37,7 @@ modules:
       - topgrade
       - zenity
       - powertop
+      - arp-scan
       #- howdy
       #- gcc
       - python3.11
