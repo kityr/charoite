@@ -37,7 +37,6 @@ modules:
       - topgrade
       - zenity
       - powertop
-      - arp-scan
       #- howdy
       #- gcc
       - python3.11
@@ -49,6 +48,7 @@ modules:
       - gqrx
       - gnuradio 
       - sdrangel
+      - android-tools
       #- apx
       #- docker-compose
       #- rust
