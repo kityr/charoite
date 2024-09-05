@@ -43,11 +43,11 @@ modules:
       - adw-gtk3-theme
       #- pipx
       ##- rapid-photo-downloader
-      ##- rtl-sdr
+      - rtl-sdr
       #- gr-osmosdr
-      ##- gqrx
+      - gqrx
       #- gnuradio 
-      ##- sdrangel
+      - sdrangel
       #- android-tools
       #- apx
       #- docker-compose
