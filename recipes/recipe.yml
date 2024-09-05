@@ -30,9 +30,9 @@ modules:
       - bat
       - eza
       - fish
-      ##- zsh
+      - zsh
       #- intel-undervolt
-      ##- msr-tools
+      - msr-tools
       #- waydroid
       - topgrade
       ##- zenity
