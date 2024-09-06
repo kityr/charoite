@@ -42,8 +42,8 @@ modules:
       - python3.11
       - adw-gtk3-theme
       #- pipx
-      - rapid-photo-downloader
-      ##- rtl-sdr
+      ##- rapid-photo-downloader
+      - rtl-sdr
       #- gr-osmosdr
       ##- gqrx
       #- gnuradio 
