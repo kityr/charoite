@@ -28,6 +28,7 @@ modules:
       #- https://copr.fedorainfracloud.org/coprs/champe20/apx/repo/fedora-%OS_VERSION%/champe20-apx-fedora-%OS_VERSION%.repo
       - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
     install:
+      - devmem2
       - kernel-tools
       - tailscale
       - bat
