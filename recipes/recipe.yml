@@ -29,6 +29,7 @@ modules:
       - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
       - https://copr.fedorainfracloud.org/coprs/alternateved/keyd/repo/fedora-%OS_VERSION%/alternateved-keyd-fedora-%OS_VERSION%.repo
     install:
+      - https://dl.waveterm.dev/releases-w2/waveterm-linux-x86_64-0.8.8.rpm
       - keyd
       #- devmem2
       - kernel-tools
