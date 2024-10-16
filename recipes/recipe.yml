@@ -32,6 +32,7 @@ modules:
       - Wave
     install:
       #- https://dl.waveterm.dev/releases-w2/waveterm-linux-x86_64-0.8.11.rpm
+      - waveterm-latest.rpm
       - nemo
       - keyd
       #- devmem2
@@ -82,7 +83,7 @@ modules:
   - type: script
     scripts: 
       #- gnometb.sh
-      - waveterm.sh
+      #- waveterm.sh
   
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
