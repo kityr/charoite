@@ -72,7 +72,7 @@ modules:
   - type: script
     scripts: 
       - gnometb.sh
-      - waveterm.sh
+      #- waveterm.sh
       #- install_topgrade.sh
     
   - type: default-flatpaks
