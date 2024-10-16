@@ -3,7 +3,7 @@ name: Download File
 on:
   schedule:
     - cron: '0 0 * * *'  # Runs every day at midnight
-  workflow_dispatch:
+  workflow_dispatch:      # Allows manual trigger
 
 jobs:
   download:
@@ -12,6 +12,9 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+
+      - name: Create directory
+        run: mkdir -p files
 
       - name: Get file URL
         id: get-url
