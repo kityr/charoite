@@ -28,6 +28,8 @@ modules:
       #- https://copr.fedorainfracloud.org/coprs/champe20/apx/repo/fedora-%OS_VERSION%/champe20-apx-fedora-%OS_VERSION%.repo
       - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
       - https://copr.fedorainfracloud.org/coprs/alternateved/keyd/repo/fedora-%OS_VERSION%/alternateved-keyd-fedora-%OS_VERSION%.repo
+    optfix:
+      - Wave
     install:
       #- https://dl.waveterm.dev/releases-w2/waveterm-linux-x86_64-0.8.11.rpm
       - nemo
@@ -68,13 +70,20 @@ modules:
       # "firefox" is the main package, "firefox-langpacks" is a dependency
       ##- firefox
       ##- firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
+    replace:
+      - from-repo: https://copr.fedorainfracloud.org/coprs/trixieua/mutter-patched/repo/fedora-%OS_VERSION%/trixieua-mutter-patched-fedora-%OS_VERSION%.repo
+        packages:
+          - gnome-shell
+          - mutter
+          - mutter-common
+          - xorg-x11-server-Xwayland
+          - gdm
       
   - type: script
     scripts: 
-      - gnometb.sh
-      #- waveterm.sh
-      #- install_topgrade.sh
-    
+      #- gnometb.sh
+      - waveterm.sh
+  
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
     system:
