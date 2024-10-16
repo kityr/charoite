@@ -6,4 +6,3 @@
 set -oue pipefail
 
 latest_release=$(curl -s https://api.github.com/repos/wavetermdev/waveterm/releases/latest | grep -oP '"browser_download_url": "\K[^"]+' | grep 'waveterm-linux-x86_64.*\.rpm$')
-rpm-ostree install $latest_release
