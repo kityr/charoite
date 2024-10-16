@@ -1,0 +1,28 @@
+name: Download File
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs every day at midnight
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Get file URL
+        id: get-url
+        run: |
+          chmod +x charoite/files/scripts/waveterm.sh
+          file_url=$(charoite/files/scripts/waveterm.sh)
+          echo "::set-output name=url::${file_url}"
+
+      - name: Download file
+        run: |
+          curl -L ${{ steps.get-url.outputs.url }} -o charoite/files/waveterm-latest.rpm
+
+      - name: Verify file
+        run: |
+          ls -l charoite/files/waveterm-latest.rpm
