@@ -28,11 +28,11 @@ modules:
       #- https://copr.fedorainfracloud.org/coprs/champe20/apx/repo/fedora-%OS_VERSION%/champe20-apx-fedora-%OS_VERSION%.repo
       - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
       - https://copr.fedorainfracloud.org/coprs/alternateved/keyd/repo/fedora-%OS_VERSION%/alternateved-keyd-fedora-%OS_VERSION%.repo
-      - https://repos.fyralabs.com/terra%OS_VERSION%
+      #- https://repos.fyralabs.com/terra%OS_VERSION%
     #optfix:
     #  - Wave
     install:
-      - zed-preview
+      #- zed-preview
       #- https://dl.waveterm.dev/releases-w2/waveterm-linux-x86_64-0.8.11.rpm
       #- $(files/scripts/waveterm.sh)
       #- waveterm-latest.rpm
