@@ -32,6 +32,7 @@ modules:
     #optfix:
     #  - Wave
     install:
+      - clang
       #- zed-preview
       #- https://dl.waveterm.dev/releases-w2/waveterm-linux-x86_64-0.8.11.rpm
       #- $(files/scripts/waveterm.sh)
