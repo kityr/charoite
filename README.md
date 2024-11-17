@@ -1,5 +1,7 @@
 # charoite
 
+## if this thought occurs to you, do NOT try to rebase to this as-is! It doesn't even include a browser by default (oops) and the distro is overall tailored to my needs, with overlays randomly added and removed when I want
+
 - based on silverblue-nvidia:latest (meaning nvidia drivers, distrobox, etc)
 - bat, exa, fish shell, intel-undervolt, msr-tools, powertop, waydroid
 - gnome patched for triple buffering
