@@ -20,6 +20,7 @@ modules:
 
   - type: rpm-ostree
     repos:  
+      - https://copr.fedorainfracloud.org/coprs/zinix01/linux-wifi-hotspot/repo/fedora-%OS_VERSION%/zinix01-linux-wifi-hotspot-fedora-%OS_VERSION%.repo
       #- https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/trixieua/mutter-patched/repo/fedora-%OS_VERSION%/trixieua-mutter-patched-fedora-%OS_VERSION%.repo
       #- https://copr.fedorainfracloud.org/coprs/cyrinux/misc/repo/fedora-%OS_VERSION%/cyrinux-misc-fedora-%OS_VERSION%.repo
@@ -32,7 +33,8 @@ modules:
     #optfix:
     #  - Wave
     install:
-      - https://github.com/Windscribe/Desktop-App/releases/download/v2.12.4/windscribe_2.12.4_beta_x86_64_fedora.rpm
+      - linux-wifi-hotspot 
+      #- https://github.com/Windscribe/Desktop-App/releases/download/v2.12.4/windscribe_2.12.4_beta_x86_64_fedora.rpm
       #- clang
       #- zed-preview
       #- https://dl.waveterm.dev/releases-w2/waveterm-linux-x86_64-0.8.11.rpm
