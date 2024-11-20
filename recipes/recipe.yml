@@ -34,7 +34,7 @@ modules:
     #  - Wave
     install:
       - linux-wifi-hotspot 
-      #- https://github.com/Windscribe/Desktop-App/releases/download/v2.12.4/windscribe_2.12.4_beta_x86_64_fedora.rpm
+      - https://github.com/Windscribe/Desktop-App/releases/download/v2.12.4/windscribe_2.12.4_beta_x86_64_fedora.rpm
       #- clang
       #- zed-preview
       #- https://dl.waveterm.dev/releases-w2/waveterm-linux-x86_64-0.8.11.rpm
