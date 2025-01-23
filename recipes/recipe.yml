@@ -35,6 +35,7 @@ modules:
       #- windscribe
       #- Wave
     install:
+      - astroterm
       - ghostty
       - sdrpp
       - zoxide
