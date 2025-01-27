@@ -32,12 +32,10 @@ modules:
       - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
       - https://copr.fedorainfracloud.org/coprs/alternateved/keyd/repo/fedora-%OS_VERSION%/alternateved-keyd-fedora-%OS_VERSION%.repo
       #- https://repos.fyralabs.com/terra%OS_VERSION%
-      - https://nvidia.github.io/libnvidia-container/stable/rpm/nvidia-container-toolkit.repo
     optfix:
       #- windscribe
       #- Wave
     install:
-      - nvidia-container-toolkit
       - scrcpy
       - astroterm
       - ghostty
