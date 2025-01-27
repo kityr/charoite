@@ -36,7 +36,6 @@ modules:
       #- windscribe
       #- Wave
     install:
-      - quadlet
       - scrcpy
       - astroterm
       - ghostty
