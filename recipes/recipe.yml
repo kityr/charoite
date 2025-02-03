@@ -57,6 +57,7 @@ modules:
       - powertop
       #- howdy
       - python3.11
+      - python3.12
       - adw-gtk3-theme
       - rapid-photo-downloader
       - rtl-sdr
