@@ -32,7 +32,7 @@ modules:
       - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
       - https://copr.fedorainfracloud.org/coprs/alternateved/keyd/repo/fedora-%OS_VERSION%/alternateved-keyd-fedora-%OS_VERSION%.repo
       #- https://repos.fyralabs.com/terra%OS_VERSION%
-    optfix:
+    optfix: []
       #- windscribe
       #- Wave
     install:
@@ -65,7 +65,7 @@ modules:
       - gqrx
       #- gnuradio 
       - sdrangel
-    remove:
+    remove: []
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
       ##- firefox
@@ -80,18 +80,18 @@ modules:
           - gdm
       
   - type: script
-    scripts: 
+    scripts: []
       #- gnometb.sh
       #- waveterm.sh
   
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
-    system:
+    system: []
       # If no repo information is specified, Flathub will be used by default
       # repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
       # repo-name: flathub
       # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
-      install:
+      install: []
         # - org.mozilla.firefox
         # - org.gnome.Loupe
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
@@ -99,7 +99,7 @@ modules:
 
       # only normal flatpak applications are (like Floorp Lightning web browser in this example).
       # Installing different branches of the same Flatpak is not supported.
-      remove:
+      remove: []
         # - org.gnome.eog
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
