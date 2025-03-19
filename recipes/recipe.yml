@@ -36,7 +36,6 @@ modules:
       #- windscribe
       #- Wave
     install:
-      - https://www.zettlr.com/download/rpm64
       - uv
       - scrcpy
       - astroterm
